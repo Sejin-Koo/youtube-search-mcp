@@ -1,0 +1,15 @@
+{
+  "name": "youtube-search-mcp",
+  "version": "1.0.0",
+  "description": "YouTube 검색 MCP 서버 — API 키 하나로 유튜브 공개 데이터(영상 검색·상세·댓글·채널·업로드 목록·인기 급상승)를 조회",
+  "type": "module",
+  "scripts": {
+    "test": "node smoke.mjs"
+  },
+  "keywords": ["mcp", "youtube", "youtube-data-api"],
+  "license": "ISC",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^4.4.3"
+  }
+}
